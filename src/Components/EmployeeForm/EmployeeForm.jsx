@@ -40,7 +40,7 @@ const EmployeeForm = ({ onClose }) => {
   });
 
   const handleNextStep = (values) => {
-    setEmployeeData((prevData) => ({ ...prevData, ...values })); // Update employeeData with Formik values
+    setEmployeeData((prevData) => ({ ...prevData, ...values })); 
     setStep((prev) => prev + 1);
   };
 

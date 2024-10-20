@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 import { useParams } from "react-router-dom";
 import { EmployeeContext } from "../../EmployeeContext ";
-import Admin from "../assets/Admin.png"; // Default image
+import Admin from "../assets/Admin.png"; 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
-import ToggleButton from '../ToggleButton/ToggleButton'; // Import your ToggleButton
+import ToggleButton from '../ToggleButton/ToggleButton'; 
 
 function EmployeeDetails() {
   const { id } = useParams();
@@ -51,7 +51,7 @@ function EmployeeDetails() {
                     <div className="flex items-center">
                       <div className="relative w-6 h-6 overflow-hidden rounded-full me-2">
                         <img
-                          src={employee.image || Admin} 
+                          src={employee.image} 
                           alt="employeeImage"
                           className="w-full h-full object-cover"
                         />

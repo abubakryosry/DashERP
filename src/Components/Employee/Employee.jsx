@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleCheck, faCircleXmark, faTrashCan } from "@fortawesome/free-solid-svg-icons";
+
 import React from "react";
 import { Link } from 'react-router-dom';
 
@@ -12,7 +13,7 @@ function Employee({employee, deleteEmployee}) {
           <div className="flex items-center">
           <div className="relative w-6 h-6 overflow-hidden rounded-full me-2">
                   <img
-                    src={employee.image}
+                    src={employee.image || Admin}
                     alt="employeeImage"
                     className="w-full h-full object-cover"
                   />
