@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/DashERP/static/css/main.b211971d.css",
+    "main.js": "/DashERP/static/js/main.fb45b029.js",
+    "index.html": "/DashERP/index.html",
+    "main.b211971d.css.map": "/DashERP/static/css/main.b211971d.css.map",
+    "main.fb45b029.js.map": "/DashERP/static/js/main.fb45b029.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b211971d.css",
+    "static/js/main.fb45b029.js"
+  ]
+}
