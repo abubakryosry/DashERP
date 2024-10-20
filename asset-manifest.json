@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/DashERP/static/css/main.2326dd8b.css",
-    "main.js": "/DashERP/static/js/main.3ee557e2.js",
+    "main.js": "/DashERP/static/js/main.5bf93ede.js",
     "index.html": "/DashERP/index.html",
     "main.2326dd8b.css.map": "/DashERP/static/css/main.2326dd8b.css.map",
-    "main.3ee557e2.js.map": "/DashERP/static/js/main.3ee557e2.js.map"
+    "main.5bf93ede.js.map": "/DashERP/static/js/main.5bf93ede.js.map"
   },
   "entrypoints": [
     "static/css/main.2326dd8b.css",
-    "static/js/main.3ee557e2.js"
+    "static/js/main.5bf93ede.js"
   ]
 }
