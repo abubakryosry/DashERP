@@ -1,3 +1,4 @@
+import adminImage from './assets/Admin.png';
 const roles = ["IT", "Software", "Data Entry"];
 const active = [true, false];
 
@@ -5,7 +6,7 @@ const active = [true, false];
 const employeeData = Array.from({ length: 23 }, (_, i) => ({
     id: i,
     employeeName: "Ahmed Ali",
-    image: "assets/Admin.png",
+    image: {adminImage},
     role: roles[i % roles.length],
     email: `example@gmail.com`, 
     phone: `01234567899`,

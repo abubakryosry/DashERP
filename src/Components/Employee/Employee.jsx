@@ -13,7 +13,7 @@ function Employee({employee, deleteEmployee}) {
           <div className="flex items-center">
           <div className="relative w-6 h-6 overflow-hidden rounded-full me-2">
                   <img
-                    src={employee.image || Admin}
+                    src={employee.image}
                     alt="employeeImage"
                     className="w-full h-full object-cover"
                   />
